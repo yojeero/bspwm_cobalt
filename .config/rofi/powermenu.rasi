@@ -1,0 +1,51 @@
+configuration {
+    show-icons: false;
+}
+
+window {
+    anchor:           center;
+    location:         center;
+    width:            600px;
+    padding:          60px 40px;    
+    background-color: #012b4aCC;    
+    border-radius:    8px;
+}
+
+mainbox {
+    background-color: transparent;
+    children:         [ listview ];
+}
+
+listview {
+    background-color: transparent;
+    columns:          3;            
+    lines:            1;            
+    spacing:          20px;       
+    cycle:            true;
+    dynamic:          true;
+    layout:           vertical;     
+}
+
+element {
+    background-color: #023861;   
+    text-color:       #f8f8f2;
+    orientation:      vertical;
+    border-radius:    8px;
+    padding:          40px 0px;    
+    border:           1px;        
+    border-color:     #034a7f;    
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    font:             "JetBrains Mono Bold 14";
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+}
+
+element selected.normal {
+    background-color: #ffc600;    
+    text-color:       #012b4a; 
+    border-color:     #ffc600;    
+}
