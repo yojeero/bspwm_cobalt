@@ -105,3 +105,11 @@ chsh -s $(command -v fish)
 
 > [!IMPORTANT]
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)  
+
+#### Hide & show polybar
+
+> [!IMPORTANT]
+> use keybinding
+`
+super + p 
+`
