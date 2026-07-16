@@ -17,7 +17,7 @@ Bspwm Dotfiles
 | **Window Manager** | `bspwm` |
 | **Hotkeys daemon** | `sxhkd` |
 | **Status bar** | `polybar` |
-| **Terminal** | `alacritty` / `kitty` |
+| **Terminal** | `alacritty` |
 | **Launcher** | `rofi` |
 | **Wallpaper** | `feh` |
 | **Compositor** | `picom` |
