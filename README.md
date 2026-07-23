@@ -1,16 +1,19 @@
 
 <h1 align="center">
-Bspwm Dotfiles
 
-<sub>Cobalt2 Theme</sub>
+Bspwm Dotfiles   
+
+<img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-34ace0?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/>   
+
+###
 
 <img src="screen/1.png" alt="Preview" width="100%" max-width="800px"><img src="screen/2.png" alt="Preview" width="50%" max-width="800px"><img src="screen/3.png" alt="Preview" width="50%" max-width="800px">
 
- <sub>Arch based</sub>
-
-<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20"/><img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge" height="20"/><img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" height="20"/><img alt="Alpine Linux" src="https://img.shields.io/badge/Alpine%20Linux-grey?logo=alpine&logoColor=fff&style=for-the-badge" height="20"/><img alt="openSUSE" src="https://img.shields.io/badge/opensuse-green?style=for-the-badge&logo=opensuse&logoColor=white" height="20"/>
-
 </h1> 
+
+## Cobalt2 Theme
+
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20"/><img alt="" src="https://img.shields.io/badge/Gentoo-706fd3?style=for-the-badge&logo=gentoo&logoColor=white" height="20"/><img alt="Debian" src="https://img.shields.io/badge/Debian-ff5252?style=for-the-badge&logo=debian&logoColor=white" height="20"/><img alt="Alpine Linux" src="https://img.shields.io/badge/Alpine%20Linux-487eb0?logo=alpine&logoColor=fff&style=for-the-badge" height="20"/><img alt="" src="https://img.shields.io/badge/-Fedora-45aaf2?style=for-the-badge&logo=fedora&logoColor=white" height="20"/> 
 
 | <img width="200"/> | <img width="200"/> |
 | :--- | :--- |
