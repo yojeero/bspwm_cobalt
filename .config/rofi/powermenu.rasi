@@ -3,18 +3,9 @@ configuration {
 }
 
 window {
-<<<<<<< HEAD
     fullscreen: true;
     background-color: #012b4aCC;
     children: [ mainbox ];
-=======
-    anchor:           center;
-    location:         center;
-    width:            600px;
-    padding:          60px 40px;    
-    background-color: #012b4aCC;    
-    border-radius:    8px;
->>>>>>> 7336925e36e61acba61b607abc0c4dab670a586d
 }
 
 mainbox {
@@ -38,7 +29,6 @@ listview {
     fixed-columns: true; 
     spacing: 32px;
     background-color: transparent;
-<<<<<<< HEAD
 }
 
 element {
@@ -53,30 +43,6 @@ element {
 element-text {
     font: "JetBrains Mono Bold 22";
     expand: true;
-=======
-    columns:          3;            
-    lines:            1;            
-    spacing:          20px;       
-    cycle:            true;
-    dynamic:          true;
-    layout:           vertical;     
-}
-
-element {
-    background-color: #023861;   
-    text-color:       #f8f8f2;
-    orientation:      vertical;
-    border-radius:    8px;
-    padding:          40px 0px;    
-    border:           1px;        
-    border-color:     #034a7f;    
-}
-
-element-text {
-    background-color: transparent;
-    text-color:       inherit;
-    font:             "JetBrains Mono Bold 14";
->>>>>>> 7336925e36e61acba61b607abc0c4dab670a586d
     horizontal-align: 0.5;
     vertical-align: 0.5;
     text-color: #ffffff;
@@ -84,7 +50,6 @@ element-text {
 }
 
 element selected.normal {
-<<<<<<< HEAD
     background-color: #ffc600;
     border-color: #ffc600;
 }
@@ -99,9 +64,4 @@ inputbar,
 textbox-prompt-colon,
 message {
     enabled: false;
-=======
-    background-color: #ffc600;    
-    text-color:       #012b4a; 
-    border-color:     #ffc600;    
->>>>>>> 7336925e36e61acba61b607abc0c4dab670a586d
 }

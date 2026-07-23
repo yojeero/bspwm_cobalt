@@ -82,11 +82,7 @@ dunst -config $HOME/.config/dunstrc &
 # =========================
 # GRAPHICS 
 # =========================
-<<<<<<< HEAD
-feh --bg-fill $HOME/wallpapers/suse.jpg &
-=======
-feh --bg-fill $HOME/wallpapers/hitagi.jpg &
->>>>>>> 7336925e36e61acba61b607abc0c4dab670a586d
+feh --bg-fill $HOME/Pictures/suse.jpg &
 picom --config $HOME/.config/picom/picom.conf &
 
 
