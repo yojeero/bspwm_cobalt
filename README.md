@@ -3,7 +3,7 @@
 
 Bspwm Dotfiles   
 
-<img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-34ace0?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/>   
+<img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-34ace0?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/>     
 
 ###
 
