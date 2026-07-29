@@ -82,7 +82,7 @@ dunst -config $HOME/.config/dunstrc &
 # =========================
 # GRAPHICS 
 # =========================
-feh --bg-fill $HOME/Pictures/suse.jpg &
+feh --bg-fill $HOME/Pictures/opel.jpg &
 picom --config $HOME/.config/picom/picom.conf &
 
 

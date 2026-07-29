@@ -38,7 +38,7 @@ Bspwm Dotfiles
 
 #### 1. Update system
 ```bash
-sudo pacman -Syuu
+sudo pacman -Syu
 ```
 
 #### 2. Installing BSPWM and basic utilities
@@ -64,8 +64,8 @@ makepkg -si
 ```bash
 yay -S firefox kitty alacritty mousepad \
         thunar thunar-archive-plugin thunar-volman \
-        bottom fastfetch yazi mc file-roller \
-        p7zip unzip zip ouch \
+        bottom fastfetch mc file-roller \
+        p7zip unzip zip \
         wget git curl gvfs udisks2 ntfs-3g \
         xdg-utils glib2 ripgrep zoxide xfce4-screenshooter \
         celluloid rhythmbox imagemagick ffmpeg palette imv \
@@ -92,7 +92,7 @@ chsh -s $(command -v fish)
 
 ```text
 ~/
-├── wallpapers/
+├── Pictures/
 ├── icons/
 ├── themes/
 ├── .local/share/fonts/
