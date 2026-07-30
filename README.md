@@ -29,7 +29,7 @@ Bspwm Dotfiles
 
 #### Fonts
 **Symbols Nerd Font** - icons, interface, development.   
-**JetBrains Mono Font** - system font and interface.
+**Hack Nerd Font** - system font and interface.
 
 > [!IMPORTANT]
 > Create folder **Screen** in terminal for saving screenshots   
