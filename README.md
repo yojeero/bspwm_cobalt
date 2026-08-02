@@ -3,7 +3,7 @@
 
 Bspwm Dotfiles   
 
-<img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-34ace0?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/>     
+<img alt="Arch" src="https://img.shields.io/badge/Arch-34ace0?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="40"/>     
 
 ###
 
@@ -13,7 +13,7 @@ Bspwm Dotfiles
 
 ## Cobalt2 Theme
 
-<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="20"/><img alt="" src="https://img.shields.io/badge/Gentoo-706fd3?style=for-the-badge&logo=gentoo&logoColor=white" height="20"/><img alt="Debian" src="https://img.shields.io/badge/Debian-ff5252?style=for-the-badge&logo=debian&logoColor=white" height="20"/><img alt="Alpine Linux" src="https://img.shields.io/badge/Alpine%20Linux-487eb0?logo=alpine&logoColor=fff&style=for-the-badge" height="20"/><img alt="" src="https://img.shields.io/badge/-Fedora-45aaf2?style=for-the-badge&logo=fedora&logoColor=white" height="20"/> 
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Crux" src="https://img.shields.io/badge/-crux-f7f1e3?style=for-the-badge" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-706fd3?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Suse" src="https://img.shields.io/badge/-SUSE-A3CB38?style=for-the-badge&logo=opensuse&logoColor=white" height="24"/><img alt="Alpine" src="https://img.shields.io/badge/Alpine-487eb0?logo=alpine&logoColor=fff&style=for-the-badge" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-ff5252?style=for-the-badge&logo=debian&logoColor=white" height="24"/> 
 
 | <img width="200"/> | <img width="200"/> |
 | :--- | :--- |
@@ -29,7 +29,7 @@ Bspwm Dotfiles
 
 #### Fonts
 **Symbols Nerd Font** - icons, interface, development.   
-**Hack Nerd Font** - system font and interface.
+**JetBrains Mono** - system font and interface.
 
 > [!IMPORTANT]
 > Create folder **Screen** in terminal for saving screenshots   
@@ -62,15 +62,14 @@ makepkg -si
 
 #### 4. Installing basic applications and dependencies
 ```bash
-yay -S firefox kitty alacritty mousepad \
+yay -S firefox alacritty mousepad vim \
         thunar thunar-archive-plugin thunar-volman \
         bottom fastfetch mc file-roller \
         p7zip unzip zip \
         wget git curl gvfs udisks2 ntfs-3g \
         xdg-utils glib2 ripgrep zoxide xfce4-screenshooter \
         celluloid rhythmbox imagemagick ffmpeg palette imv \
-        lxappearance kvantum qt6ct xorg-xsetroot \
-        ttf-jetbrains-mono ttf-nerd-fonts-symbols adwaita-fonts
+        lxappearance xorg-xsetroot 
 ```
 
 #### 5. Additional software
