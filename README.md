@@ -13,7 +13,7 @@ Bspwm Dotfiles
 
 ## Cobalt2 Theme
 
-<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Crux" src="https://img.shields.io/badge/Crux-f7f1e3?style=for-the-badge" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-54487A?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" height="24"/><img alt="Alpine" src="https://img.shields.io/badge/Alpine-0D597F?logo=alpinelinux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" height="24"/> 
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Crux" src="https://img.shields.io/badge/Crux-f7f1e3?style=for-the-badge" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-54487A?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Fedora" src="https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" height="24"/><img alt="Alpine" src="https://img.shields.io/badge/Alpine-0D597F?logo=alpinelinux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" height="24"/> 
 
 | <img width="200"/> | <img width="200"/> |
 | :--- | :--- |
