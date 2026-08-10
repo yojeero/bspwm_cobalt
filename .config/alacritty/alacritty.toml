@@ -1,6 +1,5 @@
 [window]
 padding = { x = 20, y = 20 }
-decorations = "Full"
 opacity = 0.90 
 
 [font]
@@ -9,9 +8,6 @@ size = 11.0
 
 [selection]
 save_to_clipboard = true
-
-[general]
-live_config_reload = true
 
 [colors]
 #Colors (Cobalt2)
