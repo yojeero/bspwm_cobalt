@@ -3,7 +3,7 @@
 
 Bspwm Dotfiles   
 
-<img alt="CachyOS" src="https://img.shields.io/badge/Cachy-273c75?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/><img alt="Linux" src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" height="40"/>   
+<img alt="CachyOS" src="https://img.shields.io/badge/Cachy-273c75?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/>  
 
 ###
 
