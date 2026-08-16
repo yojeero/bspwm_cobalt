@@ -62,10 +62,10 @@ makepkg -si
 
 #### 4. Installing basic applications and dependencies
 ```bash
-yay -S firefox alacritty mousepad vim \
+yay -S firefox alacritty mousepad micro \
         thunar thunar-archive-plugin thunar-volman \
-        bottom fastfetch mc file-roller \
-        p7zip unzip zip \
+        btop fastfetch mc engrampa \
+        p7zip unzip zip tar atool \
         wget git curl gvfs udisks2 ntfs-3g \
         xdg-utils glib2 ripgrep zoxide xfce4-screenshooter \
         celluloid rhythmbox imagemagick ffmpeg palette imv \
