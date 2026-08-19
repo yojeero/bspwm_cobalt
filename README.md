@@ -49,7 +49,7 @@ sudo pacman -S \
 ```bash
 sudo pacman -S \
     bspwm sxhkd \
-    polybar rofi bemenu picom feh \
+    alacritty polybar rofi picom feh \
     maim slop xclip dunst i3lock
 ```
 
@@ -62,17 +62,14 @@ chmod +x ~/.config/polybar/launch.sh
 #### 3. Installing basic applications and dependencies
 ```bash
 sudo pacman -S \
-    firefox alacritty kitty \
-    micro mousepad \
+    firefox kitty micro mousepad \
     thunar thunar-archive-plugin thunar-volman \
     gvfs udisks2 ntfs-3g tumbler \
     fastfetch mc engrampa btop \
     p7zip unzip zip tar atool \
-    wget git curl \
-    xdg-utils ripgrep zoxide \
-    xfce4-screenshooter \
-    celluloid rhythmbox imagemagick ffmpeg imv \
-    lxappearance glib2 
+    wget git curl xdg-utils ripgrep zoxide \
+    xfce4-screenshooter celluloid rhythmbox imv \
+    imagemagick ffmpeg lxappearance glib2 
 ```
 
 #### Home Structure
