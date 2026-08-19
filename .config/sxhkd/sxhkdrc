@@ -20,10 +20,10 @@ super + w
 
 super + n
 	thunar
-	
+
 Print
 	xfce4-screenshooter -f
-	
+
 super + Print
     sleep 2; maim -u | tee "$HOME/Screen/pic_$(date +%F_%T).png" | xclip -selection clipboard -t image/png
 

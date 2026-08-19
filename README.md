@@ -3,21 +3,21 @@
 
 Bspwm 🐧 Dotfiles   
 
-<img alt="CachyOS" src="https://img.shields.io/badge/Cachy-273c75?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="40"/>
+<img alt="Arch" src="https://img.shields.io/badge/Arch-0097e6?logo=arch-linux&logoColor=fff&style=for-the-badge" height="40"/><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="40"/>
 
 ###
 
-<img src="screen/1.png" alt="Preview" width="50%" max-width="800px"><img src="screen/3.png" alt="Preview" width="50%" max-width="800px">
+<img src="screen/1.png" alt="Preview" width="50%" max-width="800px"><img src="screen/2.png" alt="Preview" width="50%" max-width="800px">
+<img src="screen/3.png" alt="Preview" width="50%" max-width="800px"><img src="screen/4.png" alt="Preview" width="50%" max-width="800px">
 
 </h1> 
 
-## Cobalt2 Theme
+## Cobalt Theme
 
-<img alt="Crux" src="https://img.shields.io/badge/Crux-dfe4ea?style=for-the-badge&logo=gnubash&logoColor=black" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-546de5?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-ff4757?style=for-the-badge&logo=debian&logoColor=white" height="24"/><img alt="Alpine" src="https://img.shields.io/badge/Alpine-60a3bc?logo=alpinelinux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Arch" src="https://img.shields.io/badge/Arch-0fbcf9?logo=arch-linux&logoColor=fff&style=for-the-badge" height="24"/>
+<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Crux" src="https://img.shields.io/badge/Crux-dfe4ea?style=for-the-badge&logo=gnubash&logoColor=black" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-ED4C67?style=for-the-badge&logo=debian&logoColor=white" height="24"/><img alt="Alpine" src="https://img.shields.io/badge/Alpine-60a3bc?logo=alpinelinux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-546de5?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Arch" src="https://img.shields.io/badge/Arch-0097e6?logo=arch-linux&logoColor=fff&style=for-the-badge" height="24"/>
 
-| <img width="200"/> | <img width="200"/> |
+| **Window Manager** <img width="60"/>  | `bspwm` <img width="140"/>  |
 | :--- | :--- |
-| **Window Manager** | `bspwm` |
 | **Hotkeys daemon** | `sxhkd` |
 | **Status bar** | `polybar` |
 | **Terminal** | `alacritty` |
@@ -25,7 +25,7 @@ Bspwm 🐧 Dotfiles
 | **Wallpaper** | `feh` |
 | **Compositor** | `picom` |
 | **Screenshot** | `maim` |
-| **Viewer** | `imv` | 
+| **Viewer** | `imv` |
 
 #### Fonts
 **Symbols Nerd Font** - icons, interface, development.   
@@ -36,14 +36,21 @@ Bspwm 🐧 Dotfiles
 
 ### Installation
 
-#### 1. Update system
+#### 1. Update system + system
 ```bash
-sudo pacman -Syu
+sudo pacman -Syu   
+
+sudo pacman -S \
+    xorg-server xorg-xinit \
+    xorg-xrandr xorg-xset xorg-xsetroot
 ```
 
 #### 2. Installing BSPWM and basic utilities
 ```bash
-sudo pacman -S bspwm sxhkd rofi picom polybar feh dunst maim slop xclip
+sudo pacman -S \
+    bspwm sxhkd \
+    polybar rofi bemenu picom feh \
+    maim slop xclip dunst i3lock
 ```
 
 Give execution rights to configuration scripts:
@@ -52,39 +59,20 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-#### 3. Installing the AUR assistant (YAY)
+#### 3. Installing basic applications and dependencies
 ```bash
-sudo pacman -S git base-devel
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-makepkg -si
-```
-
-#### 4. Installing basic applications and dependencies
-```bash
-yay -S firefox alacritty mousepad micro \
-        thunar thunar-archive-plugin thunar-volman \
-        btop fastfetch mc engrampa \
-        p7zip unzip zip tar atool \
-        wget git curl gvfs udisks2 ntfs-3g \
-        xdg-utils glib2 ripgrep zoxide xfce4-screenshooter \
-        celluloid rhythmbox imagemagick ffmpeg palette imv \
-        lxappearance xorg-xsetroot 
-```
-
-#### 5. Additional software
-```bash
-yay -S google-chrome visual-studio-code-bin 
-```
-
-#### 6. Shell & Fish
-
-```bash
-sudo pacman -Sy fish eza fzf fd
-```
-Changing the standard shell to Fish
-```bash
-chsh -s $(command -v fish)
+sudo pacman -S \
+    firefox alacritty kitty \
+    micro mousepad \
+    thunar thunar-archive-plugin thunar-volman \
+    gvfs udisks2 ntfs-3g tumbler \
+    fastfetch mc engrampa btop \
+    p7zip unzip zip tar atool \
+    wget git curl \
+    xdg-utils ripgrep zoxide \
+    xfce4-screenshooter \
+    celluloid rhythmbox imagemagick ffmpeg imv \
+    lxappearance glib2 
 ```
 
 #### Home Structure

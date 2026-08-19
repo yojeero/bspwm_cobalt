@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # =========================
-# CURSOR 
+# CURSOR
 # =========================
-xrdb -merge ~/.Xresources &
-xsetroot -cursor_name left_ptr &
-lxappearance --init &
+ xrdb -merge ~/.Xresources &
+ xsetroot -cursor_name left_ptr &
+ lxappearance --init &
 
 # Define monitors (replace eDP-1 and HDMI-1 with your outputs from xrandr)
 
@@ -28,11 +28,11 @@ lxappearance --init &
 # =========================
 # BSPWM CORE
 # =========================
-bspc monitor -d 1 2 3 4 5 6 7 8 9  
+bspc monitor -d 1 2 3 4 5 6 7 8 9
 
-bspc config border_width        2
+bspc config border_width        3
 bspc config window_gap          40
-bspc config split_ratio 0.52
+bspc config split_ratio 	0.52
 
 bspc config borderless_monocle true
 bspc config gapless_monocle true
@@ -41,9 +41,9 @@ bspc config focus_follows_pointer false
 # =========================
 # COLORS & MOUSE
 # =========================
-bspc config focused_border_color "#e9a448"
+bspc config focused_border_color "#7dc4e4"
 bspc config normal_border_color  "#416978"
-bspc config active_border_color  "#e9a448"
+bspc config active_border_color  "#7dc4e4"
 
 bspc config pointer_modifier mod4
 bspc config pointer_action1 move
@@ -53,17 +53,18 @@ bspc config pointer_action3 resize_corner
 # =========================
 # RULES xprop WM_CLASS
 # =========================
-bspc rule -r *:*
-bspc rule -a Rofi state=floating rectangle=0x0+0+0 center=on
+ bspc rule -r all
 
-bspc rule -a Google-chrome desktop=1
-bspc rule -a firefox desktop=1
-bspc rule -a Thunar desktop=2 
-bspc rule -a code desktop=4
-bspc rule -a mpv desktop=5
-bspc rule -a Org.gnome.Rhythmbox3 desktop=5
-bspc rule -a io.github.celluloid_player.Celluloid desktop=5
-bspc rule -a imv desktop=6 
+ bspc rule -a Rofi state=floating rectangle=0x0+0+0 center=on
+
+ bspc rule -a Google-chrome desktop=1
+ bspc rule -a firefox desktop=1
+ bspc rule -a Thunar desktop=2
+ bspc rule -a code desktop=4
+ bspc rule -a mpv desktop=5
+ bspc rule -a Org.gnome.Rhythmbox3 desktop=5
+ bspc rule -a io.github.celluloid_player.Celluloid desktop=5
+ bspc rule -a imv desktop=6
 
 # bspc rule -a Mousepad desktop=3 follow=on && mousepad &
 
@@ -71,19 +72,21 @@ bspc rule -a imv desktop=6
 # SERVICES & INPUT
 # =========================
 pgrep -x sxhkd >/dev/null || sxhkd &
+# sxhkd &
+
 setxkbmap -layout "us,ru" -option "grp:alt_shift_toggle" &
 
 # =========================
 # POLYBAR & NOTIFICATIONS
 # =========================
-$HOME/.config/polybar/launch.sh &
-dunst -config $HOME/.config/dunstrc &
+~/.config/polybar/launch.sh &
+dunst -config ~/.config/dunstrc &
 
 # =========================
-# GRAPHICS 
+# GRAPHICS
 # =========================
-feh --bg-fill $HOME/Pictures/opel.jpg &
-picom --config $HOME/.config/picom/picom.conf &
+feh --bg-fill ~/Pictures/opel.jpg &
+picom --config ~/.config/picom/picom.conf &
 
-
-
+# keep bspwm session
+exec bspwm

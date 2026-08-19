@@ -17,23 +17,22 @@ mainbox {
 
 box {
     expand: false;
-    padding: 40px;    
+    padding: 0;    
     background-color: transparent;
     children: [ listview ];
-    margin: 35% 20%; 
+    margin: 42% 30%; 
 }
 
 listview {
     columns: 3;           
     lines: 1;             
     fixed-columns: true; 
-    spacing: 32px;
+    spacing: 8px;
     background-color: transparent;
 }
 
-element {
-    width: 220px;         
-    padding: 45px 0px; 
+element {          
+    padding: 60px 0px; 
     border-radius: 14px;
     border: 2px;
     border-color: #034a7f;
@@ -41,7 +40,7 @@ element {
 }
 
 element-text {
-    font: "JetBrains Mono Bold 22";
+    font: "JetBrains Mono Bold 14";
     expand: true;
     horizontal-align: 0.5;
     vertical-align: 0.5;
