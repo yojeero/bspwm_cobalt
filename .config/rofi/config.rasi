@@ -4,48 +4,24 @@ configuration {
     lines: 6;
     font: "JetBrains Mono 9"; 
     show-icons: true;
-    icon-theme: "Tela"; 
+    icon-theme: "Papirus"; 
     terminal: "alacritty";
-    drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: false;    
 
     display-drun: "   Apps ";
     display-run: "   Run ";
-    display-window: " 﩯  window";
     
     hover-select: true;
     sidebar-mode: true;
-}
-
-/** transparent colors 
-10% — 1A
-20% — 33
-30% — 4D
-40% — 66
-50% — 80
-60% — 99
-70% — B3
-80% — CC
-90% — E6
-**/
-
-/** Cobalt2 Color Palette **/
-* {
-    background:     #012b4a; /* Deep Cobalt Blue */
-    background-alt: #1f4662; /* Lighter Blue Accent */
-    foreground:     #ffffff; /* Pure White Text */
-    foreground-alt: #a3b8cc; /* Muted Blue-Gray Text */
-    selected:       #ffc600; /* Vibrant Cobalt Yellow */
-    accent:         #00f5d4; /* Cobalt Mint/Cyan Highlight */
 }
 
 window {
     height: 460px;
     border: 0; 
     border-radius: 12px; 
-    background-color: @background;
+    background-color: #012b4a;
 }
 
 mainbox {
@@ -72,10 +48,10 @@ textbox-prompt-colon {
 entry {
     padding: 6px;
     margin: 20px 20px 0px 10px;
-    text-color: @foreground;
+    text-color: #ffffff;
     background-color: transparent;
     placeholder: "Search...";
-    placeholder-color: @foreground-alt;
+    placeholder-color: #a3b8cc;
 }
 
 listview {
@@ -111,16 +87,16 @@ element-text {
 
 element normal.normal {
     background-color: transparent;
-    text-color: @foreground-alt;
+    text-color: #a3b8cc;
 }
 
 element alternate.normal {
     background-color: transparent;
-    text-color: @foreground-alt;
+    text-color: #a3b8cc;
 }
 
 element selected.normal {
-    background-color: @selected;
+    background-color: #ffc600;
     text-color: #252525;
 }
 
@@ -132,23 +108,23 @@ mode-switcher {
 
 button {
     padding: 6px 12px;
-    background-color: @background-alt;
-    text-color: @foreground-alt;
+    background-color: #1f4662;
+    text-color: #a3b8cc;
     border-radius: 4px;
     vertical-align: 0.5; 
     horizontal-align: 0.5;
 }
 
 button selected {
-    background-color: @selected;
+    background-color: #ffc600;
     text-color: #15232d;
 }
 
 scrollbar {
     width:        4px;          
     border:       0;
-    handle-color: @selected;   
+    handle-color: #ffc600;   
     handle-width: 8px;
-    background-color: @background-alt; 
+    background-color: #1f4662; 
     margin:       10px 0px 30px 20px; 
 }
