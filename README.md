@@ -13,7 +13,7 @@ Bspwm 🐧 Dotfiles
 
 ## Cobalt Theme
 
-<img alt="Linux" src="https://img.shields.io/badge/Linux-ffc425?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Bash" src="https://img.shields.io/badge/Bash-6ab04c?logo=gnubash&logoColor=fff&style=for-the-badge" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-edf2fa?style=for-the-badge&logo=gentoo&logoColor=abc4ff" height="24"/><img alt="Arch" src="https://img.shields.io/badge/Arch-0064b5?logo=arch-linux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Alma" src="https://img.shields.io/badge/Alma-d1dbe4?style=for-the-badge&logo=almalinux&logoColor=476f95" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-de324c?style=for-the-badge&logo=debian&logoColor=white" height="24"/>
+<img alt="Linux" src="https://img.shields.io/badge/Linux-ffc425?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-6c5ce7?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-de324c?style=for-the-badge&logo=debian&logoColor=white" height="24"/><img alt="Suse" src="https://img.shields.io/badge/Suse-6ab04c?logo=opensuse&logoColor=fff&style=for-the-badge" height="24"/><img alt="Arch" src="https://img.shields.io/badge/Arch-0064b5?logo=arch-linux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Alma" src="https://img.shields.io/badge/Alma-74b9ff?style=for-the-badge&logo=almalinux&logoColor=white" height="24"/>
 
 | **Window Manager** <img width="60"/> | `bspwm` <img width="140"/> |
 | :----------------------------------- | :------------------------- |
@@ -36,7 +36,15 @@ Bspwm 🐧 Dotfiles
 
 ### Installation
 
-#### 1. Update system + system
+#### 1. Boot to the Arch iso
+
+```bash
+archinstall
+
+on the step - profile - select > desktop > bspwm
+```
+
+#### 2. After installing > reboot and update system
 
 ```bash
 sudo pacman -Syu
@@ -46,7 +54,7 @@ sudo pacman -S \
     xorg-xrandr xorg-xset xorg-xsetroot
 ```
 
-#### 2. Installing BSPWM and basic utilities
+#### 3. Installing BSPWM and basic utilities
 
 ```bash
 sudo pacman -S \
@@ -62,14 +70,14 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-#### 3. Installing basic applications and dependencies
+#### 4. Installing basic applications and dependencies
 
 ```bash
 sudo pacman -S \
     firefox kitty micro mousepad \
     thunar thunar-archive-plugin thunar-volman \
     gvfs udisks2 ntfs-3g tumbler \
-    fastfetch mc engrampa btop \
+    fastfetch mc xarchiver btop \
     p7zip unzip zip tar atool \
     wget git curl xdg-utils ripgrep zoxide \
     xfce4-screenshooter celluloid rhythmbox imv \
@@ -81,6 +89,7 @@ sudo pacman -S \
 ```text
 ~/
 ├── Pictures/
+├── Screen/
 ├── icons/
 ├── themes/
 ├── .local/share/fonts/
