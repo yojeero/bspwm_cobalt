@@ -11,13 +11,13 @@ Bspwm 🐧 Dotfiles
 
 </h1>
 
-## Cobalt Theme / Fish SHELL
+## Cobalt Theme   
+### Login via TTY / Startx via Fish SHELL   
 
 <img alt="Linux" src="https://img.shields.io/badge/Linux-ffc425?style=for-the-badge&logo=linux&logoColor=black" height="24"/><img alt="Gentoo" src="https://img.shields.io/badge/Gentoo-6c5ce7?style=for-the-badge&logo=gentoo&logoColor=white" height="24"/><img alt="Debian" src="https://img.shields.io/badge/Debian-de324c?style=for-the-badge&logo=debian&logoColor=white" height="24"/><img alt="Suse" src="https://img.shields.io/badge/Suse-6ab04c?logo=opensuse&logoColor=fff&style=for-the-badge" height="24"/><img alt="Arch" src="https://img.shields.io/badge/Arch-0064b5?logo=arch-linux&logoColor=fff&style=for-the-badge" height="24"/><img alt="Alma" src="https://img.shields.io/badge/Alma-74b9ff?style=for-the-badge&logo=almalinux&logoColor=white" height="24"/>
 
-| **SHELL** <img width="60"/> | `fish` <img width="140"/> |
+| **Window Manager** <img width="60"/> | `bspwm` <img width="140"/> |
 | :-------------------------- | :------------------------ |
-| **Window Manager**          | `bspwm`                   |
 | **Hotkeys daemon**          | `sxhkd`                   |
 | **Status bar**              | `polybar`                 |
 | **Terminal**                | `alacritty`               |
@@ -27,17 +27,18 @@ Bspwm 🐧 Dotfiles
 | **Screenshot**              | `maim`                    |
 | **Viewer**                  | `imv`                     |
 
-#### Fonts
+#### Fonts   
 
-**Symbols Nerd Font** - icons, interface, development.  
-**JetBrains Mono** - system font and interface.
+**Symbols Nerd Font** - icons, interface, development.   
+**JetBrains Mono** - system font and interface.   
 
-> [!IMPORTANT]
-> Create folder **Screen** in terminal for saving screenshots
+**Clear Sans 10** - System Font   
+**Gruvbox Dark** - Theme   
+**Gruvbox** - Icons   
 
-### Installation
+### Installation   
 
-#### 1. Boot to the Arch iso
+#### 1. Boot to the Arch iso   
 
 ```bash
 archinstall
@@ -45,7 +46,7 @@ archinstall
 on the step - profile - select > desktop > bspwm
 ```
 
-#### 2. After installing > reboot and update system
+#### 2. After installing > reboot and update system   
 
 ```bash
 sudo pacman -Syu
@@ -55,7 +56,7 @@ sudo pacman -S \
     xorg-xrandr xorg-xset xorg-xsetroot
 ```
 
-#### 3. Installing BSPWM and basic utilities
+#### 3. Installing BSPWM and basic utilities   
 
 ```bash
 sudo pacman -S \
@@ -71,7 +72,7 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-#### 4. Installing basic applications and dependencies
+#### 4. Installing basic applications and dependencies   
 
 ```bash
 sudo pacman -S \
@@ -85,7 +86,14 @@ sudo pacman -S \
     imagemagick ffmpeg lxappearance glib2
 ```
 
-#### Home Structure
+#### 5. Installing FISH (if want)   
+
+```bash
+sudo pacman -S fish eza fzf fd
+
+chsh -s $(command -v fish)
+```
+#### Home Structure   
 
 ```text
 ~/
@@ -102,13 +110,18 @@ sudo pacman -S \
     └── picom/
 ```
 
-#### Another used Dots, Icons, Themes ...
+#### Another used Dots, Icons, Themes ...   
 
 > [!IMPORTANT]
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)
 
-#### Hide & show polybar
+#### Hide & show polybar   
 
 > [!IMPORTANT]
 > use keybinding
-> `super + p `
+> `super + p `   
+
+#### Folder for screenshots   
+
+> [!IMPORTANT]
+> Create folder **Screen** for saving screenshots via maim.
