@@ -87,4 +87,4 @@ dunst -config ~/.config/dunstrc &
 feh --bg-fill ~/Pictures/opel.jpg &
 picom --config ~/.config/picom/picom.conf 
 
-# exec bspwm
+
