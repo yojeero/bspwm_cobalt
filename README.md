@@ -1,17 +1,7 @@
-<h1 align="center">
-
-Bspwm Dotfiles   
-
-`Arch`  
-
-<br>
-
 <img src="screen/1.png" alt="Preview" width="50%" max-width="800px"><img src="screen/2.png" alt="Preview" width="50%" max-width="800px">
 <img src="screen/3.png" alt="Preview" width="50%" max-width="800px"><img src="screen/4.png" alt="Preview" width="50%" max-width="800px">
 
-</h1>
-
-### Cobalt Theme
+# Bspwm `Arch`  
 
 | **Window Manager** <img width="60"/> | `bspwm` <img width="140"/> |
 | :----------------------------------- | :------------------------- |
@@ -24,7 +14,7 @@ Bspwm Dotfiles
 | **Screenshot**                       | `maim`                     |
 | **Viewer**                           | `imv`                      |
 
-#### Fonts
+### Fonts
 
 **Symbols Nerd Font** - icons, interface, development.  
 **JetBrains Mono** - system font and interface.
@@ -33,9 +23,9 @@ Bspwm Dotfiles
 **Gruvbox Dark** - Theme  
 **Gruvbox** - Icons
 
-### Installation
+## Installation
 
-#### 1. Boot to the Arch iso
+### 1. Boot to the Arch iso
 
 ```
 archinstall
@@ -43,7 +33,7 @@ archinstall
 on the step - profile - select > desktop > bspwm
 ```
 
-#### 2. After installing > reboot and update system
+### 2. After installing > reboot and update system
 
 ```
 sudo pacman -Syu
@@ -56,7 +46,7 @@ sudo pacman -S \
     xorg-xsetroot
 ```
 
-#### 3. Installing BSPWM and basic utilities
+### 3. Installing BSPWM and basic utilities
 
 ```
 sudo pacman -S \
@@ -81,7 +71,7 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-#### 4. Installing basic applications and dependencies
+### 4. Installing basic applications and dependencies
 
 ```
 sudo pacman -S \
@@ -127,7 +117,7 @@ imv \
    lxappearance 
 ```
 
-#### 5. Installing FISH
+### 5. Installing FISH
 
 ```
 sudo pacman -S \
@@ -139,7 +129,7 @@ fish \
 chsh -s $(command -v fish)
 ```
 
-#### Home Structure
+### Home Structure
 
 ```text
 ~/
@@ -156,22 +146,22 @@ chsh -s $(command -v fish)
     └── picom/
 ```
 
-#### Used Dots, Icons, Themes, Wallpapers
+### Used Dots, Icons, Themes, Wallpapers
 
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)
 
-#### Hide/show Polybar + full desktop
+### Hide/show Polybar + full desktop
 
 > use keybinding
 > `super + b `
 
-#### Folder for screenshots
+### Folder for screenshots
 
 > Create folder **Screen** for saving screenshots via maim.
 
-### Login via TTY
+## Login via TTY
 
-#### .xinitrc
+### .xinitrc
 
 > at the end > insert
 
@@ -179,7 +169,7 @@ chsh -s $(command -v fish)
 exec bspwm
 ```
 
-#### config.fish
+### config.fish
 
 > at the end > insert
 
@@ -191,6 +181,6 @@ if status is-login
 end
 ```
 
-#### Login to Bspwm
+## Login to Bspwm
 
 > Arch Linux > login > pass
