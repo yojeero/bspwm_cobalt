@@ -23,7 +23,7 @@
 **Gruvbox Dark** - Theme  
 **Gruvbox** - Icons
 
-## :books: Installation
+### 🧼 Installation
 
 #### 1. Boot to the Arch iso
 
@@ -46,7 +46,7 @@ sudo pacman -S \
     xorg-xsetroot
 ```
 
-#### 3. Installing BSPWM and basic utilities
+#### 3. Installing BSPWM
 
 ```
 sudo pacman -S \
@@ -64,14 +64,15 @@ sxhkd \
    i3lock
 ```
 
-Give execution rights to configuration scripts:
+> [!IMPORTANT]
+> Give execution rights to configuration scripts:
 
 ```
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 ```
 
-#### 4. Installing basic applications and dependencies
+#### 4. Installing Pkgs
 
 ```
 sudo pacman -S \
@@ -148,21 +149,25 @@ chsh -s $(command -v fish)
 
 #### Used Dots, Icons, Themes, Wallpapers
 
+> [!NOTE]
 > [yojeero/config_linux](https://github.com/yojeero/config_linux)
 
-#### Hide/show Polybar + full desktop
+#### Hide/show Polybar
 
+> [!TIP]
 > use keybinding
 > `super + b `
 
 #### Folder for screenshots
 
+> [!TIP]
 > Create folder **Screen** for saving screenshots via maim.
 
-### :label: Login TTY
+### 🐧 Login TTY
 
 #### .xinitrc
 
+> [!TIP]
 > at the end > insert
 
 ```
@@ -171,6 +176,7 @@ exec bspwm
 
 #### config.fish
 
+> [!TIP]
 > at the end > insert
 
 ```
@@ -181,6 +187,7 @@ if status is-login
 end
 ```
 
-### :label: Login Bspwm
+### 🐧 Login Bspwm
 
+> [!TIP]
 > Arch Linux > login > pass
